@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adeldaaboul.github.io/EENG250/sitemap.xml

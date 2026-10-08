@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>EENG250 Electric Circuits I</title>
+<script>
+  // GitHub Pages addresses are case-sensitive: /EENG250/ works, /eeng250 or /Eeng250 does not.
+  // Any address that starts with the course code in the wrong case lands here and is sent on,
+  // with the rest of the address in lower case (all page names on the site are lower case).
+  var m = location.pathname.match(/^\/eeng250(\/.*)?$/i);
+  if (m) {
+    location.replace("/EENG250" + (m[1] ? m[1].toLowerCase() : "/") + location.search + location.hash);
+  }
+</script>
+<style>body { font: 18px/1.5 system-ui, sans-serif; margin: 3em auto; max-width: 36em; padding: 0 16px; }</style>
+</head>
+<body>
+<h1>Page not found</h1>
+<p>Looking for the course site? Go to <a href="/EENG250/">adeldaaboul.github.io/EENG250</a>.</p>
+</body>
+</html>
